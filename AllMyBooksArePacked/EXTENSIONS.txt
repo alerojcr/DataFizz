@@ -1,0 +1,20 @@
+# Book Packer
+
+#Important Information.
+
+In order to work and avoid any CORS problem, the code and HTML files must be pulled from a server. For this challenge I used XAMPP.
+
+# Extensions
+
+*** Once your solution is completed please add an EXTENSIONS.txt file to your solution that notes how your application could be extended to handle the following:
+
+
+1. Domains beyond Amazon.com
+
+2. Products beyond just simply books.
+
+3. Parse and ship 2,000,000 books (in a reasonably time frame; e.g., polynomial time) instead of merely 20. ***
+
+1. For domains beyond Amazon, we can use a URL list instead of the HTML files.
+2. As it is, it can pull pretty much any information for any product. The objects need to have small changes made depending on the information required for each of them, and if needed, the change in the code should only change depending on the requirements.
+3. as it is now, the code is efficient. In polynominal time complexity, fast and efficiency are not always hand to hand, meaning that efficient doesn't always means fast. It may be necessary to review the code if it were to present problems handling a large amount of items (n).
